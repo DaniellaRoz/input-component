@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+}
+
+div {
+    display: inline-block;
+
+    margin-right: 92px;
+}
+
+div .tag-info {
+    margin-bottom: 16px;
+
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333;
+}

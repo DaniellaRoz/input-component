@@ -1,0 +1,85 @@
+.input-base {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 4px;
+
+    font-family: 'Noto Sans', monospace;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+input, textarea {
+    width: 200px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+input {
+    height: 56px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #828282;
+}
+
+.error input, .error textarea {
+    border: 1px solid #D32F2F;
+}
+
+.error .label, .error .helper-text {
+    color: #D32F2F;
+}
+
+.disabled input {
+    background-color: #F2F2F2;
+    border: 1px solid #E0E0E0;
+}
+
+.helper-text {
+    margin-top: 4px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.sm input {
+    height: 40px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-width input {
+    width: 100%;
+}
+
+.disabled input:hover {
+    border: 1px solid #E0E0E0;
+}
+
+input:hover, textarea:hover {
+    border: 1px solid #333;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #2962FF;
+}
+
+.error input:focus, .error textarea:focus {
+    border: 1px solid #D32F2F;
+}
+

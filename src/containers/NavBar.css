@@ -1,0 +1,35 @@
+#logo, ul {
+    margin-left: 50px;
+}
+
+#logo {
+    margin-bottom: 80px;
+
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#logo span {
+    color: #F7542E;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 25px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9E9E9E;
+}
+
+strong {
+    color: #090F31;
+}
